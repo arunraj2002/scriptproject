@@ -215,8 +215,8 @@ button{
 ![output](./static/img/o2.png)
 
 ## validator:
-![output](./static/img/output/v1.png)
-![output](./static/img/output/v2.png)
+![output](./static/img/v1.png)
+![output](./static/img/v2.png)
 
 
 ## RESULT:
