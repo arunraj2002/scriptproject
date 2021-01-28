@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AREA of TRIANGLE</title>
+    <link rel="stylesheet" href="{% static 'css/Artriangle.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formview">
+            <div class="banner">
+                AREA OF TRIANGLE
+            </div>
+            <div class="content">
+                <form action="" method="GET">
+                    {% csrf_token %}
+                    <div class="forminput">
+                        <label for="value_b">Base=</label>
+                        <input type="text" name="value_b" id="value_b">
+                    </div>
+                    <div  class="forminput">
+                        <label for="value_h">Height=</label>
+                        <input type="text" name="value_h" id="value_h">
+                    </div>                    
+                    <div class="forminput">
+                        <button type="button" name="button_calculate" id="button_calculate">Calculate</button>
+                    </div>
+                    <div class="forminput">
+                        <label for="value_c">Area=</label>
+                        <input type="text" name="value_c" id="value_c" readonly>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/mathscript.js/"></script>
+</body>
+</html>
